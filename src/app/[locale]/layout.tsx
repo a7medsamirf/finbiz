@@ -9,9 +9,6 @@ import { getLangDir }  from 'rtl-detect';
 // Google Font
 import { El_Messiri , DM_Sans } from "next/font/google";
 
-// FontAwesome setup
-import '../../lib/fontawesome.js'; // import your fontawesome config
-
 // Styles
 import "/public/assets/sass/animate.css";
 import "./globals.css";
