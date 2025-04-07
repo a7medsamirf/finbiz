@@ -1,0 +1,68 @@
+{
+  "Navbar": {
+    "title": "Test Page",
+    "GetStarted":"Get Started",
+    "link": {
+      "home": " Home",
+      "Product": "Product",
+      "Pages": "Pages",
+      "Integrations": "Integrations",
+      "Blog": "Blog",
+      "Pricing": "Pricing"
+    },
+    "Metadata": {
+      "title": "Finbiz"
+    }
+  },
+
+  "Header": {
+    "title": "The Finance Solutions For Your Business ",
+    "suptitle": " Introducing AI Automation",
+    "description": " Empower your finance team. The onestop plateform for all financial management of small and medium-sized business.",
+    "ButtonBookaDemo": "Book a Demo",
+    "ButtonNew": "New",
+    "placeholder" : "Enter your email adress"
+  },
+
+
+  "LocaleSwitcher": {
+    "label": "Change language",
+    "locale": "{locale, select, ar {عربى} en {English} other {Unknown}}"
+  },
+
+  "Cta": {
+    "title": "Let’s Upgrade your finances experience by using FinBiz",
+    "RequestDemo": "Request Demo",
+    "WatchVideo": "Watch Video"
+  },
+  "Testimonial": {
+    "title": "What are people saying",
+    "suptitle": "Testimonials",
+    "description": "Thank you for your trust in Crypt Land! We are grateful for your feedback and are committed to providing the best [products/services offered]. Read what our clients have to say about their experience with us."
+  },
+
+  "NotFound":{
+    "title": "Page not found",
+    "description": "Sorry, we couldn’t find the page you’re looking for.",
+    "GoHome": "Go back Home"
+  },
+
+
+  
+  "Footer": {
+    "title": "Data analysis software is a type of software tool used for data analysis and reporting.",
+    "Copyright": "Copyright 2025, All Rights Reserved by FinBiz",
+    "Newsletter": "Subscribe to Newsletter",
+    "EnterEmailAddress": "Enter email address",
+    "Join": "Join",
+    "CompanyTitle": "Company",
+    "HelpTitle": "Help",
+    "ServiceLink": "Service",
+    "ResourcesLink": "Resources",
+    "AboutUsLink": "About us",
+    "CustomerSupportLink": "Customer Support",
+    "TermsConditionsLink": "Terms & Conditions",
+    "PrivacyPolicyLink": "Privacy Policy"
+  }
+
+}

@@ -1,0 +1,39 @@
+// Font family
+$font-base: 		 		'Archivo', sans-serif;
+$font-hedding:		 	'Archivo', sans-serif;
+
+// Colors
+$body-color:	    	#666666;
+$primary:						#efb225;
+$white:							#ffffff;
+$gray-1: 						#f2f4f6; 		// BG Light
+$gray-2: 						#cccccc;
+$gray-3: 						#666666; 		// Body Text
+$gray-4: 						#6e6e6e;    // Sub Heading
+$gray-5: 						#000000;    // Box Shadow
+$gray-6: 						#f6f6f6;
+$gray-7: 						#052c52;    // Heading Color
+$gray-8: 						#e8e8e8;
+$gray-9: 						#052c52; 		// BG Color Dark
+$gray-10: 					#eaeaea;
+
+// Border color
+$border-color: 	    #f2f4f6;
+$border-color-2:    #e6e9ed;
+
+// For button and input border radius
+$border-radius:     50%;
+
+// Box shadow sizes
+$box-shadow:       0px 2px 5px 0px rgba($gray-5, 0.11);
+$box-shadow-lg:    0px 4px 10px 0px rgba($gray-9, 0.13);
+$box-shadow-flat:  20px 22px 0px 0px $primary;
+
+
+
+/* Color Variable */
+$body-color:#545454;
+$white-color: #ffffff;
+$heading-color: #04223e;
+$primary-color: #184f87;
+$main-color: #e01e35

@@ -1,0 +1,66 @@
+{
+  "Navbar": {
+    "title": "موقع تجريبى",
+    "GetStarted":"أبدا",
+    "link": {
+      "home": " الرئيسية",
+      "Product": "المنتجات",
+      "Pages": "الصفحات",
+      "Integrations": "التكاملات",
+      "Blog": "أخر الاخبار",
+      "Pricing": "التسعير"
+    },
+    "Metadata": {
+      "title": "فينفيز"
+    }
+  },
+  "Header": {
+    "title": "الحلول المالية لأعمالك ",
+    "suptitle": " مقدمة عن الذكاء الاصطناعي  ",
+    "description": " عزز فريقك المالي. منصة شاملة لإدارة جميع شؤون الشركات الصغيرة والمتوسطة ماليًا.",
+    "ButtonBookaDemo": " احجز عرضًا توضيحيًا",
+    "ButtonNew": "جديد",
+    "placeholder" : "أدخل عنوان بريدك الإلكتروني"
+  },
+
+  "LocaleSwitcher": {
+    "label": "Change language",
+    "locale": "{locale, select, ar {عربى} en {English} other {Unknown}}"
+  },
+
+
+  "Cta": {
+    "title": "دعنا نطور تجربتك المالية باستخدام FinBiz",
+    "RequestDemo": "اطلب عرضًا توضيحيًا",
+    "WatchVideo": "شاهد الفيديو"
+  },
+  "Testimonial": {
+    "title": "ماذا يقول الناس ",
+    "suptitle": "شهادات العملاء ",
+    "description": "   شكرًا لثقتكم في كريبت لاند! نشكركم على ملاحظاتكم ونلتزم بتقديم أفضل المنتجات/الخدمات. اقرأ آراء عملائنا حول تجربتهم معنا."
+  },
+
+  "NotFound":{
+    "title": "لم يتم العثور على الصفحة",
+    "description": "عذراً، لم نتمكن من العثور على الصفحة التي تبحث عنها.",
+    "GoHome": "العودة الى الرئيسية"
+  },
+
+  "Footer": {
+    "title": "برنامج تحليل البيانات هو نوع من أدوات البرمجيات المستخدمة لتحليل البيانات وإعداد التقارير عنها.",
+    "Copyright": "جميع الحقوق محفوظة لشركة FinBiz، 2025",
+    "Newsletter": "اشترك في النشرة الإخبارية",
+    "EnterEmailAddress": "أدخل عنوان البريد الإلكتروني",
+    "Join": "انضم",
+    "CompanyTitle": "الشركة",
+    "HelpTitle": "مساعدة",
+    "ServiceLink": "الخدمات",
+    "ResourcesLink": "الموارد",
+    "AboutUsLink": "معلومات عنا",
+    "CustomerSupportLink": "خدمة العملاء",
+    "TermsConditionsLink": "الشروط والأحكام",
+    "PrivacyPolicyLink": "سياسة الخصوصية"
+
+  }
+
+}

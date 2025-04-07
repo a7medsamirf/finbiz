@@ -1,0 +1,61 @@
+
+
+// Core files
+@import "variables";
+@import "animate";
+@import "responsive";
+
+// Structure
+@import "header";
+@import "footer";
+@import "button";
+@import "rtl";
+
+
+body{
+  overflow-x: hidden;
+}
+
+/* global CSS Start */
+* {
+    scroll-behavior: inherit !important;
+  }
+
+  body {
+    font-family: var(--font-dmSans);
+  }
+
+a{
+    text-decoration: none;
+
+    transition: all 0.3s ease-in-out;
+}
+
+.svg-inline--fa {
+    vertical-align: middle !important;
+}
+
+
+a.active {
+    color: var(--primary-color) !important;
+}
+
+button{
+  cursor: pointer;
+}
+
+
+/* .sidebar {
+  -webkit-backdrop-filter: blur(15px);
+  backdrop-filter: blur(15px);
+}
+ */
+
+.close-icon:hover  {
+  transition: 0.70s;
+  transform: rotate(180deg);
+}
+
+.overlay:hover {
+  cursor: url(../images/cross.png), auto;
+}
