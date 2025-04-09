@@ -2,6 +2,8 @@ import { getTranslations } from "next-intl/server";
 import TestimonialCarousel from "@/components/Section/Testimonial/TestimonialCarousel";
 import Header from "@/components/Section/Header/Header";
 import Cta from "@/components/Section/Cta";
+import Pricing from "@/components/Section/Pricing/Pricing";
+import Chart from "@/components/Section/Chart";
 
 export async function generateMetadata() {
 
@@ -17,10 +19,10 @@ export default function Home() {
     <>
 
       <Header />
-
+    {/*   <Chart /> */}
      <TestimonialCarousel />
 
-
+     <Pricing />
     <Cta />
 
 

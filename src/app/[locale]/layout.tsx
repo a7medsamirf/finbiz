@@ -17,6 +17,7 @@ import "/public/assets/sass/globals.css";
 // Components
 import Navbar from "@/components/Navbar/Navbar";
 import Footer from "@/components/Footer/Footer";
+import LoadingOverlay from "@/components/Settings/LoadingOverlay";
 
 // Font setup
 const elMessiri = El_Messiri({
@@ -77,7 +78,7 @@ export default async function LocaleLayout({
     >
                        
       <body className="bg-gray-100 dark:bg-gray-900 text-gray-900 dark:text-gray-100 transition-colors duration-300 font-sans text-left rtl:text-right">
-
+      <LoadingOverlay />
       <ThemeProviderWrapper>
 
           <NextIntlClientProvider locale={locale} messages={messages}>

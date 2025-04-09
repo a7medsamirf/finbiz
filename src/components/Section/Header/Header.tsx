@@ -37,13 +37,9 @@ const items = [
 ];
 const Header = () => {
   const t = useTranslations('Header');
-
   const [isRTL, setIsRTL] = useState(false);
 
-
-
   useEffect(() => {
-    // You can set this based on <html dir="rtl"> or a context/state
     const dir = document.documentElement.getAttribute("dir");
     setIsRTL(dir === "rtl");
   }, []);
@@ -51,13 +47,17 @@ const Header = () => {
 
   return (
     <>
+
+
  <div className="bg-gray-100 dark:bg-gray-900">
 
 <div className="relative isolate px-6 pt-14 lg:px-8">
   <div className="mx-auto max-w-4xl py-32 sm:py-48 lg:py-56">
     <div className="mb-8 flex justify-center">
-      <div className="relative flex rounded-full px-2 py-1 text-sm/6 bg-white dark:text-primary border dark:border-primary/30 border-b-0 dark:bg-primary/5 gap-3">
-      <a href="" className="font-semibold text-white bg-primary rounded-full px-3 py-1">
+
+
+      <div className="relative flex rounded-full px-2 py-1 text-sm/6 bg-white dark:text-primary  border dark:border-primary/30 border-b-0 dark:bg-primary/5 gap-3">
+      <a href="" className="font-semibold text-white bg-primary shadow-lg shadow-primary/20 rounded-full px-3 py-1">
              {t('ButtonNew')}
         </a>
 
@@ -103,8 +103,7 @@ const Header = () => {
 
 
 
-      <div className="mt-8 flex items-center justify-center">
-    
+  <div className="mt-10 flex items-center justify-center">
     <div className="">
       <div className="shrink-0 pb-5">
 
@@ -119,8 +118,6 @@ const Header = () => {
                               className="inline-block size-8 rounded-full ring-2 ring-white dark:ring-neutral-900"
                              />
                    ))}
-    
-    
         </div>
    
       </div>

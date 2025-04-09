@@ -1,4 +1,11 @@
 {
+  "Button": {
+    "GetStarted": "Get Started",
+    "BookaDemo": "Book a Demo",
+    "RequestDemo": "Request Demo",
+    "WatchVideo": "Watch Video",
+    "Join": "Join"
+  },
   "Navbar": {
     "title": "Test Page",
     "GetStarted":"Get Started",
@@ -29,16 +36,27 @@
     "label": "Change language",
     "locale": "{locale, select, ar {عربى} en {English} other {Unknown}}"
   },
+  "Testimonial": {
+    "title": "What are people saying",
+    "suptitle": "Testimonials",
+    "description": "Thank you for your trust in Crypt Land! We are grateful for your feedback and are committed to providing the best [products/services offered]. Read what our clients have to say about their experience with us.",
+    "Popular": "Popular"
+  },
+
+  "Pricing": {
+    "title": "Find the right plan",
+    "suptitle": "Pricing",
+    "description": "Invest in your company's future with our comprehensive financial solution. Contact us for pricing details and see how we can help you streamline your finances and reach your business goals.",
+    "Popular": "Popular",
+    "CardTitle": "Basic",
+    "CardDescription": "Perfect for small businesses and startups"
+
+  },
 
   "Cta": {
     "title": "Let’s Upgrade your finances experience by using FinBiz",
     "RequestDemo": "Request Demo",
     "WatchVideo": "Watch Video"
-  },
-  "Testimonial": {
-    "title": "What are people saying",
-    "suptitle": "Testimonials",
-    "description": "Thank you for your trust in Crypt Land! We are grateful for your feedback and are committed to providing the best [products/services offered]. Read what our clients have to say about their experience with us."
   },
 
   "NotFound":{

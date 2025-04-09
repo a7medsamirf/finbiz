@@ -29,7 +29,7 @@ export default function NavbarClient({ locale }: { locale: string }) {
 
   return (
     <>
-      <nav className="bg-white dark:bg-gray-950 fixed w-full z-50 ">
+      <nav className="bg-white dark:bg-gray-950 fixed w-full z-40 ">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between h-20 items-center">
             <div className="flex-shrink-0">
@@ -89,7 +89,7 @@ export default function NavbarClient({ locale }: { locale: string }) {
 
       {/* Sidebar drawer */}
       <div
-        className={`fixed sidebar top-0 ${locale === 'ar' ? 'right-0' : 'left-0'} h-full w-64 bg-white dark:bg-gray-950 z-50 transform transition-transform duration-300 ease-in-out  ${
+        className={`${locale === 'ar' ? 'right-0' : 'left-0'} fixed sidebar top-0 h-full w-64 bg-white dark:bg-gray-950 z-50 transform transition-transform duration-300 ease-in-out  ${
           isOpen
             ? 'translate-x-0'
             : locale === 'ar'
@@ -97,15 +97,14 @@ export default function NavbarClient({ locale }: { locale: string }) {
             : '-translate-x-full'
         }`}
       >
-        {/* <hr class="h-px my-6 bg-gray-400 border-none dark:bg-gray-700"></hr> */}
 
-        <div className="p-4 flex items-center justify-between border-b border-gray-600 h-20">
+        <div className="p-4 flex items-center justify-between  h-20">
           <Link href="/" className="text-xl font-bold text-gray-800">
             {/* Logo */}
             <Logo />
           </Link>
           <button className='close-icon' onClick={() => setIsOpen(false)}>
-            <X className="size-5 text-black dark:text-white hover:text-primary" />
+            <X className="size-5 text-primary " />
           </button>
         </div>
 

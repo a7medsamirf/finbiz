@@ -4,9 +4,9 @@
 
 @theme {
   --color-primary: #A3DC2F;
+  --color-midnight: #33C6AB;
    --color-black: #1D1C20;
    --color-white: #fff;
-
   --color-gray-50: oklch(0.96 0 0);
   --color-gray-100: oklch(0.97 0 0);
   --color-gray-200: oklch(0.91 0 0);

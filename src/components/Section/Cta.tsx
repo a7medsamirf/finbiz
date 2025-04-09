@@ -11,9 +11,9 @@ const Cta = () => {
     <section className=" ">
 
   <div className="container mx-auto p-5">
-  <div className="mx-auto max-w-screen my-20 px-4 py-5 sm:px-6 lg:px-8 bg-white dark:bg-gray-950 rounded-3xl">
+  <div className="mx-auto max-w-screen mt-20 px-4 py-5 sm:px-6 lg:px-8 bg-white dark:bg-gray-950 rounded-3xl">
     <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-3 md:items-center items-center gap-4 md:gap-8">
-      <div className='col-span-1 md:col-span-2 text-center'>
+      <div className='col-span-1 md:col-span-2 text-center p-5'>
         <div className="max-w-lg md:max-w-none w-12/12 lg:w-9/12  md:text-left md:rtl:text-right">
           <h2 className="leading-tight text-3xl sm:text-5xl lg:text-6xl mb-4 font-semibold text-gray-900 dark:text-white ">
             {t('title')}

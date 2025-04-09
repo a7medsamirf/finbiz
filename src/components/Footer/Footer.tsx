@@ -4,6 +4,8 @@ import {useTranslations} from 'next-intl';
 import SocialMedia from './SocialMedia';
 import Logo from '../SharesComponent/Logo';
 import Newsletter from './Newsletter';
+import MotionWrapper from '../SharesComponent/MotionWrapper';
+
 
 
 const Footer = () => {
@@ -12,7 +14,7 @@ const Footer = () => {
   return (
     <> 
 
-<footer className="bg-gray-200 dark:bg-gray-950 pt-20">
+<footer className="bg-gray-200 dark:bg-gray-950 pt-20 mt-20">
 
     {/*   <Button label="Click Me" variant="primary" size="md" onClick={() => alert("Clicked!")} />
     <Button label="Secondary" variant="secondary" size="lg" />
@@ -39,13 +41,17 @@ const Footer = () => {
 
           <div className="mt-6 lg:mt-0 lg:flex-1">
               <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-6">
-                  <div>
+                
+           {/*      <MotionWrapper  type="scaleIn" className="mb-10">    </MotionWrapper> */}
+
+         
+              <div className='animate-fade-in-down'>
                       <h3 className="text-gray-700 capitalize dark:text-white">{t('CompanyTitle')}</h3>
                       <a href="" className="block mt-2 text-sm text-gray-600 dark:text-gray-400">{t('ServiceLink')}</a>
                       <a href="" className="block mt-2 text-sm text-gray-600 dark:text-gray-400">{t('ResourcesLink')}</a>
                       <a href="" className="block mt-2 text-sm text-gray-600 dark:text-gray-400">{t('AboutUsLink')}</a>
                   </div>
-
+              
                   <div>
                       <h3 className="text-gray-700 capitalize dark:text-white">{t('HelpTitle')}</h3>
                       <a href="" className="block mt-2 text-sm text-gray-600 dark:text-gray-400">{t('CustomerSupportLink')}</a>

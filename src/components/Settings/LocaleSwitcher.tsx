@@ -13,8 +13,7 @@ export default function LanguageSwitcher({currentLocale}: {currentLocale: string
 
   return (
     <button
-      className={clsx(
-        "",
+      className={clsx( "",
         currentLocale === "en" ? " text-black dark:text-white" : "text-black dark:text-white"
       )}
       onClick={toggleLocale}

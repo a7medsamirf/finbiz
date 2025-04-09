@@ -19,6 +19,7 @@ const ThemeSwitcher = () => {
 
   return (
     <>
+
         <button
         className=""
         onClick={() => setTheme(resolvedTheme === 'dark' ? 'light' : 'dark')}
