@@ -36,7 +36,7 @@ const PricingCard: React.FC<PricingCardProps> = ({
     {/* Popular badge */}
       {popular && (
         <div className="mb-3 md:text-right md:rtl:text-left">
-            <div className="inline-flex items-center relative rounded-full px-2 py-1 text-sm/6 bg-white dark:text-midnight border-2 dark:border-midnight/30 dark:bg-cyan-950/50 gap-3">
+            <div className="inline-flex items-center relative rounded-full px-2 py-1 text-sm/6 text-midnight border-2 border-midnight/30 bg-cyan-950 dark:bg-cyan-950/50 gap-3">
                   <a href="" className="flex items-center text-sm/6 font-semibold dark:text-midnight"> 
                   <Sparkle className='size-4'  />
                   <span className="mx-2">
@@ -51,20 +51,20 @@ const PricingCard: React.FC<PricingCardProps> = ({
          </div>
         {/* Card content */}
         <div className="flex flex-col flex-grow">
-                 <h4 className={`font-medium text-lg ${
+                 <h4 className={`font-medium text-3xl ${
                     planType === 'basic' 
-                      ? 'text-gray-400 dark:text-gray-400'
+                      ? 'text-gray-900 dark:text-white'
                       : planType === 'pro'
                       ? 'dark:text-primary'
                       : 'dark:text-primary'
                   }`}>
                     {title}
                   </h4>
-                  <p className="mt-2 text-sm text-gray-500 dark:text-neutral-500">{description}</p>
+                  <p className="mt-2 text-md text-gray-500 dark:text-neutral-500">{description}</p>
              
             <div className='py-10'>
             <p className="mt-5 gap-x-2 text-3xl md:text-4xl xl:text-5xl">
-                    <span className="text-5xl font-semibold tracking-tight text-white"> {price}</span>
+                    <span className="text-5xl font-semibold tracking-tight text-gray-900 dark:text-white"> {price}</span>
                     <span className="text-base text-gray-400">/Month</span>
                   </p>
 
