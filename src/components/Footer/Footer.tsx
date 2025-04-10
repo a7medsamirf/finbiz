@@ -6,8 +6,6 @@ import Logo from '../SharesComponent/Logo';
 import Newsletter from './Newsletter';
 import MotionWrapper from '../SharesComponent/MotionWrapper';
 
-
-
 const Footer = () => {
 
     const t = useTranslations('Footer');

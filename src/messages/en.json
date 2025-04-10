@@ -1,6 +1,7 @@
 {
   "Button": {
     "GetStarted": "Get Started",
+    "ContactUs": "Contact Us",
     "BookaDemo": "Book a Demo",
     "RequestDemo": "Request Demo",
     "WatchVideo": "Watch Video",
@@ -48,9 +49,22 @@
     "suptitle": "Pricing",
     "description": "Invest in your company's future with our comprehensive financial solution. Contact us for pricing details and see how we can help you streamline your finances and reach your business goals.",
     "Popular": "Popular",
-    "CardTitle": "Basic",
-    "CardDescription": "Perfect for small businesses and startups"
+    "basicTitle": "Basic",
+    "proTitle": "Pro",
+    "enterpriseTitle": "Enterprise",
+    "basicDescription": "Get a professional website designed according to your needs.",
+    "proDescription": "Get a professional website designed according to your needs.",
+    "enterpriseDescription": "Get a professional website designed according to your needs.",
+    "getStarted": "Get started"
 
+  },
+
+  "Features": {
+    "fullWebsite": "Get a fully designed Website.",
+    "webflow": "Webflow Development",
+    "limitedSupport": "Limited Support",
+    "standardIntegrations": "Standard integrations",
+    "emailSupport": "Email support"
   },
 
   "Cta": {

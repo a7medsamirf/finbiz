@@ -49,14 +49,14 @@ const items = [
     src: img1,
     text: "I really like the system at this management, I love recommending this software to you guys",
     name: "Alper Kamu",
-    rating: 5,
+    rating: 2,
   },
   {
     id: 5,
     src: img1,
     text: "I really like the system at this management, I love recommending this software to you guys",
     name: "Alper Kamu",
-    rating: 5,
+    rating: 4,
   },
   {
     id: 6,

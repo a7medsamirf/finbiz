@@ -1,14 +1,11 @@
 {
   "Button" : {
     "GetStarted": "أبدا",
+    "ContactUs": "تواصل معنا",
     "BookaDemo": "احجز عرضًا توضيحيًا",
-    "RequestDemo": "Request Demo",
+    "RequestDemo": "طلب عرض توضيحي",
     "WatchVideo": "شاهد الفيديو",
     "Join": "Join"
-
-   
- 
-    
   },
   "Navbar": {
     "title": "موقع تجريبى",
@@ -49,8 +46,25 @@
     "title": "العثور على الخطة الصحيحة",
     "suptitle": "التسعير",
     "description": "استثمر في مستقبل شركتك مع حلولنا المالية الشاملة. تواصل معنا لمعرفة تفاصيل الأسعار واكتشف كيف يمكننا مساعدتك في تنظيم أمورك المالية وتحقيق أهدافك التجارية.",
-    "Popular": "الشائع"
+    "Popular": "الشائع",
+    "basicTitle": "الأساسية",
+    "proTitle": "المتقدمة",
+    "enterpriseTitle": "المؤسسات",
+    "basicDescription": "احصل على موقع احترافي مصمم حسب احتياجاتك",
+    "proDescription": "احصل على موقع احترافي مصمم حسب احتياجاتك",
+    "enterpriseDescription": "احصل على موقع احترافي مصمم حسب احتياجاتك",
+    "getStarted": "ابدأ الآن"
+
   },
+
+  "Features": {
+    "fullWebsite": "احصل على موقع مصمم بالكامل",
+    "webflow": "تطوير ويب فلو",
+    "limitedSupport": "دعم محدود",
+    "standardIntegrations": "تكاملات قياسية",
+    "emailSupport": "دعم البريد الإلكتروني"
+  },
+
   "Cta": {
     "title": "دعنا نطور تجربتك المالية باستخدام FinBiz",
     "RequestDemo": "اطلب عرضًا توضيحيًا",

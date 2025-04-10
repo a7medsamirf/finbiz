@@ -5,8 +5,6 @@ import Image from "next/image";
 const Logo = () => {
   return (
     <>
-
-             
              <Image
                src="/assets/images/logo/logo-dark.svg"
                alt="Logo White"
@@ -24,8 +22,6 @@ const Logo = () => {
                className="hidden dark:block" // هذا سيخفي الصورة في الوضع الفاتح
              />
 
-
-    
     </>
   )
 }

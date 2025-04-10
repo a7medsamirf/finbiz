@@ -4,39 +4,58 @@ import PricingCard from './PricingCard';
 import {useTranslations} from 'next-intl';
 import SectionHrader from '@/components/SharesComponent/SectionHrader';
 
-const pricingPlans = [
-  {
-    title: 'Basic',
-    price: '$499',
-    description: 'Get a professional website designed according to your needs.',
-    features: ['Get a fully designed Website.', 'Webflow Development', 'Limited Support'],
-    buttonLink: '#',
-    label: 'Get started',
-    planType: 'basic'
-  },
-  {
-    title: 'Pro',
-    price: '$499',
-    description: 'Get a professional website designed according to your needs.',
-    features: ['Get a fully designed Website.', 'Webflow Development', 'Limited Support', 'Standart integrations', 'Email support'],
-    popular: true,
-    buttonLink: '',
-    label: 'Get started',
-    planType: 'pro'
-  },
-  {
-    title: 'Enterprise',
-    price: '$999',
-    description: 'Get a professional website designed according to your needs.',
-    features: ['Get a fully designed Website.', 'Webflow Development', 'Limited Support', 'Standart integrations', 'Email support', 'Email support'],
-    buttonLink: '#',
-    label: 'Get started',
-    planType: 'enterprise'
-  },
-];
-
 const Pricing = () => {
-    const t = useTranslations('Pricing');
+  const tFeatures = useTranslations('Features');
+  const t = useTranslations('Pricing');
+  // Array of pricing plans
+  const pricingPlans = [
+    {
+      title: t('basicTitle'),
+      price: "$499",
+      description: t('basicDescription'),
+      features: [
+        tFeatures('fullWebsite'),
+        tFeatures('webflow'),
+        tFeatures('limitedSupport'),
+      ],
+      buttonLink: "#",
+      label: t('getStarted'),
+      planType: "basic",
+    },
+    {
+      title: t('proTitle'),
+      price: "$499",
+      description: t('proDescription'),
+      features: [
+        tFeatures('fullWebsite'),
+        tFeatures('webflow'),
+        tFeatures('limitedSupport'),
+        tFeatures('standardIntegrations'),
+        tFeatures('emailSupport'),
+      ],
+      popular: true,
+      buttonLink: "",
+      label: t('getStarted'),
+      planType: "pro",
+    },
+    {
+      title: t('enterpriseTitle'),
+      price: "$999",
+      description: t('enterpriseDescription'),
+      features: [
+        tFeatures('fullWebsite'),
+        tFeatures('webflow'),
+        tFeatures('limitedSupport'),
+        tFeatures('standardIntegrations'),
+        tFeatures('emailSupport'),
+        tFeatures('emailSupport'),
+      ],
+      buttonLink: "#",
+      label: t('getStarted'),
+      planType: "enterprise",
+    },
+  ];
+
   return (
     <>
     <section className="mt-20">

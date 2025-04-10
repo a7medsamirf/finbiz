@@ -13,12 +13,12 @@ const Button: React.FC<ButtonProps> = ({
   size = "md",
   className = "",
 }) => {
-  const baseStyles = "font-semibold rounded-full transition duration-300 relative";
+  const baseStyles = "font-semibold rounded-full transition ease-in-out duration-300 relative";
 
   const variantStyles = {
-    primary:"bg-primary text-white overflow-hidden group hover:bg-gradient-to-r hover:from-lime-400 hover:to-lime-400 hover:ring-2 hover:ring-offset-2 hover:ring-green-400 transition-all ease-out duration-300 shadow-lg shadow-primary/30",
-    secondary: "bg-black dark:bg-white text-white dark:text-black overflow-hidden group hover:ring-2 hover:ring-offset-2 hover:ring-green-400 transition-all ease-out duration-300",
-    DarkBtn: "bg-gray-100 dark:bg-gray-800 border border-neutral-700 border-b-0",
+    primary:"bg-primary text-white overflow-hidden group hover:bg-gradient-to-r hover:from-lime-400 hover:to-lime-400 hover:ring-2 hover:ring-offset-2 hover:ring-green-400 shadow-lg shadow-primary/30",
+    secondary: "bg-black dark:bg-white text-white dark:text-black overflow-hidden group hover:ring-2 hover:ring-offset-2 hover:ring-green-400",
+    DarkBtn: "bg-gray-100 dark:bg-gray-800 border border-neutral-700 border-b-0  hover:ring-2 hover:ring-offset-2 hover:ring-wite",
     outline: "",
   };
 
