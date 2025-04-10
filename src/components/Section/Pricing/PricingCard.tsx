@@ -32,11 +32,11 @@ const PricingCard: React.FC<PricingCardProps> = ({
   return (
 <div className="flex flex-col bg-white border border-gray-200 text-center rounded-2xl p-4 md:p-8 dark:bg-gray-950 dark:border-neutral-800 hover:border-primary ease-in-out transition-all duration-300 h-full">
  <div className="flex flex-col h-full">
- <div className="mb-3 md:text-right md:rtl:text-left min-h-[50px]">
+ <div className="mb-3 md:text-left md:rtl:text-right min-h-[50px]">
 
     {/* Popular badge */}
       {popular && (
-        <div className="mb-3 md:text-right md:rtl:text-left">
+        <div className="mb-3 md:text-left md:rtl:text-right">
             <div className="inline-flex items-center relative rounded-full px-2 py-1 text-sm/6 text-midnight border-2 border-midnight/30 bg-cyan-950 dark:bg-cyan-950/50 gap-3">
                   <a href="" className="flex items-center text-sm/6 font-semibold dark:text-midnight"> 
                   <Sparkle className='size-4'  />
