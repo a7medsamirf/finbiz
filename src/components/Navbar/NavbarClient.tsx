@@ -29,7 +29,7 @@ export default function NavbarClient({ locale }: { locale: string }) {
 
   return (
     <>
-      <nav className="bg-white dark:bg-gray-950 fixed w-full z-40 ">
+      <nav className="bg-white dark:bg-gray-950  w-full z-40">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between h-20 items-center">
             <div className="flex-shrink-0">

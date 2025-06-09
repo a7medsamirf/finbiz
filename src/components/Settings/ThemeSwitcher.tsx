@@ -11,10 +11,6 @@ const ThemeSwitcher = () => {
 
   useEffect(() =>  setMounted(true), [])
 
-  useEffect(() => {
-    setMounted(true);
-  }, []);
-
   if (!mounted) return null; // Prevents hydration error
 
   return (
